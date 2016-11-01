@@ -6,8 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development electron index.js",
-    "pack": "build --dir",
-    "dist": "build",
     "webpack": "NODE_ENV=development webpack-dev-server --config webpack.config.js"
   },
   "keywords": [],
